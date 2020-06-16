@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbar_gradient"
+        android:id="@+id/textView_code"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:textColor="@color/colorBlack"
+        android:focusable="true"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
